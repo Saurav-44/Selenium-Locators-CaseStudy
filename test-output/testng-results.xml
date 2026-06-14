@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-14T16:20:06 IST" name="Suite" finished-at="2026-06-14T16:20:25 IST" duration-ms="18613">
+    <groups>
+    </groups>
+    <test started-at="2026-06-14T16:20:06 IST" name="Test" finished-at="2026-06-14T16:20:06 IST" duration-ms="343">
+      <class name="com.EasyCalculation.EasyCalculationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.EasyCalculation.EasyCalculationTest@75c56eb9]" started-at="2026-06-14T16:20:06 IST" name="setUp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1781434206438" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserName' is required by BeforeTest on method setUp but has not been marked @Optional or defined
+in D:\Selenium Java Program\EasyCalculationLocators\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserName' is required by BeforeTest on method setUp but has not been marked @Optional or defined
+in D:\Selenium Java Program\EasyCalculationLocators\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ageCalculatorTest()[pri:0, instance:com.EasyCalculation.EasyCalculationTest@75c56eb9]" started-at="2026-06-14T16:20:06 IST" name="ageCalculatorTest" finished-at="2026-06-14T16:20:06 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserName' is required by BeforeTest on method setUp but has not been marked @Optional or defined
+in D:\Selenium Java Program\EasyCalculationLocators\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserName' is required by BeforeTest on method setUp but has not been marked @Optional or defined
+in D:\Selenium Java Program\EasyCalculationLocators\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ageCalculatorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EasyCalculation.EasyCalculationTest@75c56eb9]" started-at="2026-06-14T16:20:06 IST" name="tearDown" finished-at="2026-06-14T16:20:06 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.EasyCalculation.EasyCalculationTest -->
+    </test> <!-- Test -->
+    <test started-at="2026-06-14T16:20:06 IST" name="ChromeBrowser" finished-at="2026-06-14T16:20:24 IST" duration-ms="17893">
+      <class name="com.EasyCalculation.EasyCalculationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.EasyCalculation.EasyCalculationTest@4e0ae11f]" started-at="2026-06-14T16:20:06 IST" name="setUp" finished-at="2026-06-14T16:20:11 IST" duration-ms="4909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ageCalculatorTest()[pri:0, instance:com.EasyCalculation.EasyCalculationTest@4e0ae11f]" started-at="2026-06-14T16:20:11 IST" name="ageCalculatorTest" finished-at="2026-06-14T16:20:23 IST" duration-ms="11658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ageCalculatorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EasyCalculation.EasyCalculationTest@4e0ae11f]" started-at="2026-06-14T16:20:23 IST" name="tearDown" finished-at="2026-06-14T16:20:24 IST" duration-ms="1255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.EasyCalculation.EasyCalculationTest -->
+    </test> <!-- ChromeBrowser -->
+    <test started-at="2026-06-14T16:20:06 IST" name="EdgeBrowser" finished-at="2026-06-14T16:20:25 IST" duration-ms="18613">
+      <class name="com.EasyCalculation.EasyCalculationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.EasyCalculation.EasyCalculationTest@4b2c5e02]" started-at="2026-06-14T16:20:06 IST" name="setUp" finished-at="2026-06-14T16:20:14 IST" duration-ms="8492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ageCalculatorTest()[pri:0, instance:com.EasyCalculation.EasyCalculationTest@4b2c5e02]" started-at="2026-06-14T16:20:14 IST" name="ageCalculatorTest" finished-at="2026-06-14T16:20:23 IST" duration-ms="8874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ageCalculatorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.EasyCalculation.EasyCalculationTest@4b2c5e02]" started-at="2026-06-14T16:20:23 IST" name="tearDown" finished-at="2026-06-14T16:20:25 IST" duration-ms="1213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.EasyCalculation.EasyCalculationTest -->
+    </test> <!-- EdgeBrowser -->
+  </suite> <!-- Suite -->
+</testng-results>
